@@ -34,5 +34,4 @@ jobs:
       - name: Terraform validation
         run: terraform validate
       - name: Terraform plan
-        env:
-          run: terraform plan -auto-approve -input=false
+        run: terraform plan
